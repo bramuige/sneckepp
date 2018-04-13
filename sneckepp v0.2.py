@@ -5,7 +5,7 @@ import xlrd
 workbook = xlrd.open_workbook("vleesje.xlsx")
 vleesjes = workbook.sheet_by_name("Blad1")
 
-column = 0 
+column = 0 #colom van de rij met vleesjes
 
 startRow = 1  #rij van het eerste vleesje
 endRow = 25 #rij van het laatste vleesje
